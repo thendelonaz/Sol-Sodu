@@ -1,0 +1,20 @@
+1: function SOLVE(grid[N][N])
+2: Initialise a stack
+3: while the puzzle is not complete do
+4: if the puzzle is in an invalid state then
+5: The row/col for the most recent move is always at the top of the stack.
+6: while the most recent move involved entering an N do
+7: Pop from the stack and set the value at that position to be blank
+8: end while
+9: if the stack is empty then
+10: return no solution
+11: else
+12: Increment the value stored at the most recent position
+13: end if
+14: else
+15: Find an empty cell and insert the first value for that cell
+16: Push this location onto the stack
+17: end if
+18: end while
+19: return the resulting values
+20: end function
