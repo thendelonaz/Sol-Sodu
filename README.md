@@ -17,3 +17,5 @@ Sol-Sudo is a command-line version of SUDOKU (the puzzle game) that I created in
   g++ sudoku.cpp -o sudoku
 ### step 3: run the executable
   ./sudoku
+### step 3: input
+  Type in a 9x9 Sudoku that needs to be solved use 0 to represent the missing spaces
