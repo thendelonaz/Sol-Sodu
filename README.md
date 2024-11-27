@@ -11,7 +11,9 @@ Sol-Sudo is a command-line version of SUDOKU (the puzzle game) that I created in
 
 ## How to use:
 
-step 1: compile the code
+step 1:
   go to cwd in the terminal
-  >> g++ sudoku.cpp -o sudoku
->  > ./sudoku
+step 2: compile the code
+  g++ sudoku.cpp -o sudoku
+step 3: run the executable
+  ./sudoku
